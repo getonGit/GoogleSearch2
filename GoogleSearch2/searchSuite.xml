@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Google Search testing">
+<test name="search bar test">
+<classes>
+	<class name="searchUIFunctionality.GoogleSearch"></class>
+	<class name="searchUIFunctionality.ClearSearch"></class>
+</classes>
+</test>
+</suite>

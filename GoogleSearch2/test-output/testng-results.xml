@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Google Search testing" duration-ms="18016" started-at="2019-05-06T11:20:37Z" finished-at="2019-05-06T11:20:55Z">
+    <groups>
+    </groups>
+    <test name="search bar test" duration-ms="18016" started-at="2019-05-06T11:20:37Z" finished-at="2019-05-06T11:20:55Z">
+      <class name="searchUIFunctionality.GoogleSearch">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:searchUIFunctionality.GoogleSearch@643b1d11]" name="beforeMethod" is-config="true" duration-ms="5926" started-at="2019-05-06T13:20:37Z" finished-at="2019-05-06T13:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="locateSearchBar()[pri:0, instance:searchUIFunctionality.GoogleSearch@643b1d11]" name="locateSearchBar" duration-ms="1643" started-at="2019-05-06T13:20:43Z" finished-at="2019-05-06T13:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateSearchBar -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:searchUIFunctionality.GoogleSearch@643b1d11]" name="afterMethod" is-config="true" duration-ms="676" started-at="2019-05-06T13:20:44Z" finished-at="2019-05-06T13:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- searchUIFunctionality.GoogleSearch -->
+      <class name="searchUIFunctionality.ClearSearch">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:searchUIFunctionality.ClearSearch@2ef5e5e3]" name="beforeMethod" is-config="true" duration-ms="6765" started-at="2019-05-06T13:20:45Z" finished-at="2019-05-06T13:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="clearStringandSendNewString()[pri:0, instance:searchUIFunctionality.ClearSearch@2ef5e5e3]" name="clearStringandSendNewString" duration-ms="2973" started-at="2019-05-06T13:20:52Z" finished-at="2019-05-06T13:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearStringandSendNewString -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:searchUIFunctionality.ClearSearch@2ef5e5e3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-06T13:20:55Z" finished-at="2019-05-06T13:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- searchUIFunctionality.ClearSearch -->
+    </test> <!-- search bar test -->
+  </suite> <!-- Google Search testing -->
+</testng-results>
